@@ -30,7 +30,6 @@ class Triangle extends Polygon {
 }
 
 class Square extends Polygon {
-
   get isValid() {
     if (!Array.isArray(this.sides)) return;
     if (this.count !== 4) return;
